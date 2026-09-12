@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body,
+html{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+  background:
+    radial-gradient(
+      circle at 50% 70%,
+      #ff9a1f 0%,
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at 50% 35%,
+      #ff850c 0%,
+      transparent 55%
+    ),
+    linear-gradient(
+      90deg,
+      #c94e04 0%,
+      #ff7808 50%,
+      #cf4d02 100%
+    );
+
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 50px;
+  gap: 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin-left: 780px;
+  margin-top: 2px;
+}
+
+.nav-links li{
+  margin-left: 20px;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.logo img{
+  width: 220px;
+  height: 100px;
+}
+
+.but-nav{
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  height: 50px;
+  width: 130px;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.but-nav p{
+  font-weight: 600;
+}
+
+.hero-sec{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.but-hero1{
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  height: 50px;
+  width: 120px;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.but-hero1 p{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.but-hero2{
+  background-color: rgba(255, 255, 255, 0.482);
+  color: white;
+  border-radius: 25px;
+  height: 50px;
+  width: 120px;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.but-hero2 p{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.but-sec{
+  margin-left: 295px;
+  width: 300px;
+  height: 60px;
+}
+
+.left-text{
+  width: 285px;
+  margin-top: 185px;
+  margin-left: 50px;
+}
+
+.left-text h1{
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+}
+
+.left-text p{
+  color: white;
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.center-element{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 760px;
+  height: 560px;
+}
+
+.center-element h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 252px;
+  color: white;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.center-element img{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+  z-index: 2;
+  height: 510px;
+  width: 510px;
+}
+
+.color-sec p{
+  color: white;
+  font-size: 18px;
+}
+
+.colors{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 15px;
+}
+
+.color1{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: skyblue;
+}
+.color2{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  border: 2px solid white;
+}
+.color3{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: crimson;
+}
+
+.color-text {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 15px;
+}
+
+.no1{
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no2{
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no3{
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-sec{
+  position: absolute;
+  top: 35%;
+  left: 87%;
+  transform: translate(-50%, -50%);
+}
+
+.place-order{
+  height: 20px;
+  width: 30px;
+}
+
+.app-logo img{
+  height: 30px;
+  width: 30px;
+}
+
+.app-logo{
+  position: absolute;
+  top: 100%;
+  left: 5%;
+  gap: 10px;
+}
+
+.all-prod{
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  height: 50px;
+  width: 120px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 99.9%;
+  left: 90%;
+}
